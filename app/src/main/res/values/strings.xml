@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">DPRK QUIZ</string>
+    <string name="hello">Welcome to my quiz app about North Korea. Check your knowledge about this mysterious country. Good luck!</string>
+    <string name="question1" translatable="true">Type the year of Kim Jong-il death:</string>
+    <string name="enter">Hint: Between 2000 and 2017</string>
+    <string name="question2">What is the name of ascribed status system in North Korea?</string>
+    <string name="question3">How looks the flag of North Korea?</string>
+    <string name="question4">Please choose from the list capital city of North Korea.</string>
+    <string name="question5">Two rivers between North Korea and China are (multiple choice): </string>
+    <string name="question6">Is Kim Jong-nam actuall supreme leader of North Korea? </string>
+    <string name="question6a"> Put button to right if true. &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; </string>
+    <string name="question7">Rate hardness of this quiz:</string>
+    <string name="summary">This is it! Click button to calculate your score!</string>
+    <string name="summary2">Your score:&#160;</string>
+    <string name="submit">submit</string>
+    <string name="great">&#160;Great! You know a lot!</string>
+    <string name="rated">You rated this app:&#160;</string>
+    <string name="pyongyang">Pyongyang</string>
+    <string name="chongjin">Chongjin</string>
+    <string name="wonsan">Wonsan</string>
+    <string name="taipei">Taipei</string>
+    <string name="songbun">SongBun</string>
+    <string name="hancha">Hancha</string>
+    <string name="yan_an">Yan\'an</string>
+    <string name="aegukka">Aegukka</string>
+    <string name="yalu">Yalu</string>
+    <string name="nakdong">Nakdong</string>
+    <string name="geum">Geum</string>
+    <string name="tumen">Tumen</string>
+
+
+</resources>

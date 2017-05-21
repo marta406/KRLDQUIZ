@@ -1,0 +1,125 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#d6111a</item>
+        <item name="colorPrimaryDark">#000000</item>
+        <item name="colorAccent">#db484f</item>
+    </style>
+
+    <style name="RatingBar" parent="Theme.AppCompat">
+        <item name="colorControlNormal">#d6111a</item>
+        <item name="colorControlActivated">#db484f</item>
+    </style>
+
+    <style name="backgroundImage">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+
+    <style name="mainStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">@dimen/dimen1</item>
+        <item name="android:layout_marginLeft">@dimen/dimen1</item>
+        <item name="android:layout_marginRight">@dimen/dimen1</item>
+        <item name="android:layout_marginTop">@dimen/dimen1</item>
+        <item name="android:background">@drawable/rounded_corner2</item>
+        <item name="android:padding">@dimen/dimen1</item>
+        <item name="android:textColor">@color/blue</item>
+    </style>
+
+    <style name="linear">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">@dimen/dimen1</item>
+        <item name="android:layout_marginLeft">@dimen/dimen1</item>
+        <item name="android:layout_marginRight">@dimen/dimen1</item>
+        <item name="android:background">@drawable/rounded_corner</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="textview">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/dimen1</item>
+        <item name="android:textColor">@color/blue</item>
+    </style>
+
+    <style name="radiogroup">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">@dimen/dimen1</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="radiobutton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/dimen1</item>
+        <item name="android:textColor">@color/blue</item>
+    </style>
+
+    <style name="textview2">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingBottom">@dimen/dimen2</item>
+        <item name="android:paddingLeft">@dimen/dimen1</item>
+        <item name="android:paddingRight">@dimen/dimen1</item>
+        <item name="android:paddingTop">@dimen/dimen1</item>
+        <item name="android:textColor">@color/blue</item>
+    </style>
+
+    <style name="textview3">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:inputType">number</item>
+        <item name="android:paddingLeft">@dimen/dimen1</item>
+        <item name="android:paddingRight">@dimen/dimen1</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="radiobutton2" parent="radiobutton">
+        <item name="android:layout_marginBottom">@dimen/dimen2</item>
+        <item name="android:drawableRight">@drawable/c1</item>
+    </style>
+
+    <style name="switchh">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">@dimen/dimen1</item>
+        <item name="android:layout_marginLeft">@dimen/dimen1</item>
+        <item name="android:layout_marginRight">@dimen/dimen1</item>
+    </style>
+
+    <style name="summary">
+        <item name="android:layout_marginBottom">@dimen/dimen1</item>
+        <item name="android:layout_marginLeft">@dimen/dimen1</item>
+        <item name="android:layout_marginRight">@dimen/dimen1</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/blue</item>
+    </style>
+
+    <style name="chcbx">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/dimen1</item>
+        <item name="android:layout_marginRight">@dimen/dimen1</item>
+    </style>
+
+    <style name="star">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_marginBottom">@dimen/dimen1</item>
+        <item name="android:layout_marginLeft">@dimen/dimen1</item>
+        <item name="android:layout_marginRight">@dimen/dimen1</item>
+        <item name="android:numStars">3</item>
+        <item name="android:stepSize">1</item>
+        <item name="android:theme">@style/RatingBar</item>
+    </style>
+
+</resources>

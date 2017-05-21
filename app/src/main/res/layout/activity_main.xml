@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    tools:context="com.example.android.krldquiz.MainActivity">
+
+    <ImageView
+        style="@style/backgroundImage"
+        android:src="@drawable/two" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/mainStyle"
+                android:text="@string/hello" />
+
+            <LinearLayout style="@style/linear">
+
+                <TextView
+                    style="@style/textview"
+                    android:text="@string/question2" />
+
+                <RadioGroup
+                    style="@style/radiogroup">
+
+                    <RadioButton
+                        android:id="@+id/songbunRB"
+                        style="@style/radiobutton"
+                        android:text="@string/songbun" />
+
+                    <RadioButton
+                        android:id="@+id/hanchaRB"
+                        style="@style/radiobutton"
+                        android:text="@string/hancha" />
+
+                    <RadioButton
+                        android:id="@+id/yananRB"
+                        style="@style/radiobutton"
+                        android:text="@string/yan_an" />
+
+                    <RadioButton
+                        android:id="@+id/aegukkaRB"
+                        style="@style/radiobutton"
+                        android:text="@string/aegukka" />
+                </RadioGroup>
+
+            </LinearLayout>
+
+            <LinearLayout style="@style/linear">
+
+                <TextView
+                    style="@style/textview2"
+                    android:text="@string/question1" />
+
+                <EditText
+                    android:id="@+id/questionAboutYear"
+                    style="@style/textview3"
+                    android:hint="@string/enter" />
+
+            </LinearLayout>
+
+            <LinearLayout style="@style/linear">
+
+                <TextView
+                    style="@style/textview"
+                    android:text="@string/question3" />
+
+                <RadioGroup style="@style/radiogroup">
+
+                    <RadioButton
+                        android:id="@+id/otherCountryFlag1RB"
+                        style="@style/radiobutton2"
+                        android:drawableRight="@drawable/c1"/>
+
+                    <RadioButton
+                        android:id="@+id/northKoreaFlagRB"
+                        style="@style/radiobutton"
+                        android:layout_marginBottom="@dimen/dimen2"
+                        android:drawableRight="@drawable/c2" />
+
+                    <RadioButton
+                        android:id="@+id/otherCountryFlag2RB"
+                        style="@style/radiobutton"
+                        android:layout_marginBottom="@dimen/dimen2"
+                        android:drawableRight="@drawable/c3" />
+
+                    <RadioButton
+                        android:id="@+id/otherCountryFlag3RB"
+                        style="@style/radiobutton"
+                        android:layout_marginBottom="@dimen/dimen2"
+                        android:drawableRight="@drawable/c4" />
+                </RadioGroup>
+
+            </LinearLayout>
+
+            <LinearLayout style="@style/linear">
+
+                <TextView
+                    style="@style/textview"
+                    android:text="@string/question4" />
+
+                <RadioGroup style="@style/radiogroup">
+
+                    <RadioButton
+                        android:id="@+id/taipeiRB"
+                        style="@style/radiobutton"
+                        android:text="@string/taipei" />
+
+                    <RadioButton
+                        android:id="@+id/wonsanRB"
+                        style="@style/radiobutton"
+                        android:text="@string/wonsan" />
+
+                    <RadioButton
+                        android:id="@+id/chongjinRB"
+                        style="@style/radiobutton"
+                        android:text="@string/chongjin" />
+
+                    <RadioButton
+                        android:id="@+id/pyongyangRB"
+                        style="@style/radiobutton"
+                        android:text="@string/pyongyang" />
+                </RadioGroup>
+
+            </LinearLayout>
+
+            <LinearLayout style="@style/linear">
+
+                <TextView
+                    style="@style/textview"
+                    android:text="@string/question5" />
+
+                <CheckBox
+                    android:id="@+id/yaluRiver"
+                    style="@style/chcbx"
+                    android:text="@string/yalu" />
+
+                <CheckBox
+                    android:id="@+id/nakdongRiver"
+                    style="@style/chcbx"
+                    android:text="@string/nakdong" />
+
+                <CheckBox
+                    android:id="@+id/geumRiver"
+                    style="@style/chcbx"
+                    android:text="@string/geum" />
+
+                <CheckBox
+                    android:id="@+id/tumenRiver"
+                    style="@style/switchh"
+                    android:text="@string/tumen" />
+
+            </LinearLayout>
+
+            <LinearLayout style="@style/linear">
+
+                <TextView
+                    style="@style/textview"
+                    android:text="@string/question6" />
+
+                <Switch
+                    android:id="@+id/president"
+                    style="@style/switchh"
+                    android:text="@string/question6a" />
+
+            </LinearLayout>
+
+            <LinearLayout style="@style/linear">
+
+                <TextView
+                    style="@style/textview"
+                    android:text="@string/question7" />
+
+                <RatingBar
+                    android:id="@+id/stars"
+
+                    style="@style/star" />
+
+            </LinearLayout>
+
+            <LinearLayout style="@style/linear">
+
+                <TextView
+                    style="@style/textview"
+                    android:text="@string/summary" />
+
+                <Button
+                    android:id="@+id/buttonSubmit"
+                    style="@style/switchh"
+                    android:layout_gravity="center_horizontal"
+                    android:onClick="submit"
+                    android:text="@string/submit" />
+
+                <TextView
+                    android:id="@+id/scoreSummary"
+                    style="@style/summary"
+                    android:text="" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

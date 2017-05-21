@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">KRLD QUIZ</string>
+    <string name="enter">Wskazówka: Między 2000 a 2017 rokiem</string>
+    <string name="hello">Witaj w moim quizie o Korei Północnej. Sprawdź swoją wiedzę na temat tego tajemniczego kraju. Powodzenia!</string>
+    <string name="question1" translatable="true">Wpisz datę śmierci Kim Dzong Ila:</string>
+    <string name="question2">Jak się nazywa system klasowy stosowany w Płn Korei?</string>
+    <string name="question3">Wybierz flagę KRLD:</string>
+    <string name="question4">Jak nazywa się stolica Korei Północnej?</string>
+    <string name="question5">Które dwie rzeki oddzielają Koreę Płn od Chin?</string>
+    <string name="question6">Czy Kim Dzong Nam to obecny przywódca Korei Płn?</string>
+    <string name="question6a">"Przesuń przycisk w prawo, jeśli uważasz, że tak. &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; "</string>
+    <string name="question7">Oceń trudność tego quizu:</string>
+    <string name="submit">Zatwierdź</string>
+    <string name="summary">To tyle! Kliknij poniższy przycisk aby zobaczyć ile punktów uzyskałeś/aś!</string>
+    <string name="summary2">Twój wynik to:&#160;</string>
+    <string name="rated">Oceniłeś/aś ten quiz:&#160;</string>
+    <string name="great">&#160;Super! Masz sporą wiedzę na temat KRLD!</string>
+</resources>
